@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fragmentise.workhours.MainActivity">
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="@string/about"
+        android:visible="true" />
+</menu>

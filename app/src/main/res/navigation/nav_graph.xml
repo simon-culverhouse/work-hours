@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.fragmentise.workhours.ui.MainFragment"
+        android:label="Work Hours"
+        tools:layout="@layout/main_fragment"/>
+    <fragment
+        android:id="@+id/hours_by_week"
+        android:name="com.fragmentise.workhours.ui.HoursWeekly"
+        android:label="WeeklyHours"
+        tools:layout="@layout/hours_weekly" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.fragmentise.workhours.menu.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.fragmentise.workhours.menu.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/hours_by_month"
+        android:name="com.fragmentise.workhours.ui.HoursMonthly"
+        android:label="MonthlyHours"
+        tools:layout="@layout/monthly_hours" />
+    <fragment
+        android:id="@+id/overtime_hours"
+        android:name="com.fragmentise.workhours.ui.OvertimeHours"
+        android:label="OvertimeHours"
+        tools:layout="@layout/overtime_hours" />
+    <fragment
+        android:id="@+id/hours_today"
+        android:name="com.fragmentise.workhours.ui.HoursToday"
+        android:label="TodayHours"
+        tools:layout="@layout/hours_today" />
+</navigation>
